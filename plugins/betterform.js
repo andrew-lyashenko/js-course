@@ -8,7 +8,7 @@
 
   "use strict";
 
-  function BetterForm(options) {
+  function BetterForm(options, form) {
     this.options = $.extend({
       dispatchName: null,
       remote: true
